@@ -17,7 +17,7 @@ app.set("views", "./public/views");
  app.set("view engine", "pug");
 
 app.use((req, res, next) => {
-    if (day === 6 || day === 7 || t < 9 || t > 17) {
+    if (day === 0 || day === 6 || t < 9 || t > 17) {
         res.render("index");
     }
     next();
