@@ -1,0 +1,41 @@
+main {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+nav {
+    padding: 20px 20px;
+    background-color: royalblue;
+}
+a {
+    color: cornsilk;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 10px 10px;
+}
+a:hover {
+    background-color: darkgrey;
+}
+.home_box {
+    background-color: lightsalmon;
+    color: linen;
+}
+h2 {
+    font-size: 3.78em;
+}
+.services_box {
+    background-color: rgb(75, 201, 196);
+    color: linen;
+}
+.contact_box {
+    background-color: thistle;
+    color: linen;
+}
+body {
+    background-color: rgb(255, 242, 221);
+}
